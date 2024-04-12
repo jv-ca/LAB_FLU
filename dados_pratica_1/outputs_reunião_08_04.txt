@@ -1,0 +1,17 @@
+to-do:
+SITUAÇÃO VERTICAL:
+	-comparar a pressão do lab(inmet) com a pressão do lab(barometro) (OK)
+	-calculo da pressão do lab usando o barômetro(incerteza de 1mm), sendo ela igual a ro_merc*g*h (tudo ufloat)(OK - LINHA 25)
+	-mostrar as incertezas no gráfico(baixa prioridade)
+
+SITUAÇÃO INCLINADA:
+	-incerteza do ângulo (OK - LINHA 28)
+	
+
+
+confirmado:
+-ro da água com incerteza de 0 pois é tabelado (OK - LINHA 32
+-graficos situação 1: Pxfrequencia, Pxaltura (OK - LINHA 55~)
+-incerteza do angulo: incerteza das alturas/incerteza do comprimento, colocar em 2 variáveis os ufloats pra já sair com a incerteza, usar a incerteza resultante para calcular a incerteza do arcsin() pela fórmula (OK)
+-gráficos situação 2:não tem pois vai ser só 1 ponto (OK)
+-usar o ufloat para as operações simples (OK)

@@ -1,0 +1,4 @@
+incerteza: 0.05
+altura 1: 0.9
+altura 2: 0.8
+altura 3: 0.9
